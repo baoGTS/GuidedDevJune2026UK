@@ -707,8 +707,131 @@
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
-	<ItemGroup Label="Standalone package external assembly references" />
-	<ItemGroup Label="Entity Files" />
+	<ItemGroup Label="Standalone package external assembly references">
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/CreatioTelegramConnector.OmnichannelMessaging.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/DeduplicationElastic.Domain.CrtDeduplication.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/DeduplicationElastic.WebApi.Contracts.CrtDeduplication.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/ExchangeApi.Exchange.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Facebook.SocialNetworkIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/FileConverter.Client.Http.Reports.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/FileConverter.Client.Reports.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Google.Apis.Authentication.OAuth2.OldGoogleIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Google.Apis.OldGoogleIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Google.GData.Client.OldGoogleIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Google.GData.Contacts.OldGoogleIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Google.GData.Extensions.OldGoogleIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Microsoft.CSharp.FacebookIntegration.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Microsoft.Exchange.WebServices.NETStandard.Exchange.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/OmnichannelMessaging.OmnichannelMessaging.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/OmnichannelProviders.OmnichannelMessaging.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/System.DirectoryServices.Protocols.LDAP.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/System.Web.Services.CrtProcessDesigner.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Telegram.Bot.OmnichannelMessaging.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Terrasoft.Enrichment.Interfaces.Enrichment.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Terrasoft.Extensions.Validation.Reports.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Terrasoft.GlobalSearch.Interfaces.GlobalSearch.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Terrasoft.Reporting.Abstractions.Reports.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/Twilio.OmnichannelMessaging.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/../Lib/WorkplaceApi.Workplace.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/CrtBaseConsts/Autogenerated/Lib/IntegrationApi.CrtBaseConsts.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/CrtCoreBase/Autogenerated/Lib/DocumentFormat.OpenXml.CrtCoreBase.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/CrtCoreBase/Autogenerated/Lib/EmailContract.CrtCoreBase.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/CrtCoreBase/Autogenerated/Lib/System.IO.Packaging.CrtCoreBase.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="$(RelativePkgFolderPath)/CrtML/Autogenerated/Lib/Terrasoft.ML.Interfaces.CrtML.dll">
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/UsrYacht/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrYacht/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />
+	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />
