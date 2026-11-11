@@ -7,6 +7,7 @@
 			<Item Name="Columns.UsrBirthDate.Caption" Value="Birth date" />
 			<Item Name="Columns.UsrId.Caption" Value="Id" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrParentContact.Caption" Value="Parent contact" />
 			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
 		</Items>
 	</Group>

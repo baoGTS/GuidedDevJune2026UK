@@ -2,6 +2,7 @@
 CREATE OR ALTER VIEW [dbo].[UsrVwContactAgeDays]
 AS
 SELECT Id AS UsrId, Name AS UsrName, BirthDate AS UsrBirthDate,
-       DATEDIFF(day, BirthDate, GETDATE()) AS UsrAgeDays
+       DATEDIFF(day, BirthDate, GETDATE()) AS UsrAgeDays,
+	Id AS UsrParentContactId
 FROM Contact
 GO
