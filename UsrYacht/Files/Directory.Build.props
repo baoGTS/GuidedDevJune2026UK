@@ -2,5 +2,8 @@
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />
 		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYatchDriveType/UsrYatchDriveType.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYatchDriveType/UsrYatchDriveType.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYatchs/UsrYatchs.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYatchs/UsrYatchs.cs')" />
+		<Compile Include="$(PkgPath)/UsrYacht/Schemas/UsrYatchStatus/UsrYatchStatus.cs" Condition="Exists('$(PkgPath)/UsrYacht/Schemas/UsrYatchStatus/UsrYatchStatus.cs')" />
 	</ItemGroup>
 </Project>

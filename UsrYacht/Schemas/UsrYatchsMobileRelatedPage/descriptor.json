@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e561f5b5-fd5e-4551-afd2-f4edbdb6e627",
+    "Name": "UsrYatchsMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1795588973000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yatchs (Mobile page settings)",
+    "DependsOn": []
+  }
+}

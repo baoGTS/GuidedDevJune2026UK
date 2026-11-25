@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "856f6094-a7e8-49b3-91db-90892007253f",
+    "Name": "UsrYatchs_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1795588973000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yatchs mobile list page",
+    "DependsOn": []
+  }
+}

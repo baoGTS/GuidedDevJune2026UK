@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1f9282ac-98e5-40e9-bde0-c8f61ba889cf",
+    "Name": "UsrYatchStatus",
+    "ModifiedOnUtc": "\/Date(1795594851000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Yatch Status",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "f9b99b52-31f2-4a65-aa0f-2fdcfd89d803",
+    "Name": "UsrYatchsRelatedPage",
+    "ModifiedOnUtc": "\/Date(1795588973000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Yatchs (Page settings)",
+    "DependsOn": []
+  }
+}
